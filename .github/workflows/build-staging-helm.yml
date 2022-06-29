@@ -66,3 +66,4 @@ jobs:
             ./kubernetes/contoso-website \
             --set image.repository=${{ secrets.ACR_NAME }} \
             --set dns.name=${{ secrets.DNS_NAME }}
+            --set image.tag=${GITHUB_REF##*/}
