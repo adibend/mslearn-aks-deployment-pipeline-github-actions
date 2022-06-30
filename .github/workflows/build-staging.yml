@@ -1,4 +1,4 @@
-name: Build and push the tagged build to production and test 2
+name: Build and push the tagged build to production and test 2.0.7
 
 on:
   push:
