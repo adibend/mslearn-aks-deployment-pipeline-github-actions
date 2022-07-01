@@ -2,8 +2,7 @@ name: Build and push the tagged build to staging only
 
 on:
   push:
-    tags:
-      - 'v*'
+    branches: [ main ]
 
 jobs:
   build_push_image:
