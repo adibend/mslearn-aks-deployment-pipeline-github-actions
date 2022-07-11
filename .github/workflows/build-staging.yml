@@ -37,7 +37,7 @@ jobs:
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
           # Resource Group Name
-          resource-group: mslearn-gh-pipelines-7780
+          resource-group: mslearn-gh-pipelines-18560
           # AKS Cluster Name
           cluster-name: contoso-video
 
