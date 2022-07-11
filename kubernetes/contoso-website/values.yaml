@@ -1,7 +1,7 @@
 image:
-  registry: contosocontainerregistry14973.azurecr.io
+  registry: contosocontainerregistry29161.azurecr.io
   name: contoso-website
   tag: latest
 
 dns:
-  name: eaea714fc6bc4eb39bcb.eastus.aksapp.io
+  name: e7cea9d0cd954301b921.eastus.aksapp.io
